@@ -1,0 +1,284 @@
+.color-main {
+  color: #fa6400;
+}
+
+.active {
+  color: #fa6400 !important;
+}
+
+.navbar {
+  height: 100px;
+  padding: 0 50px;
+  border-bottom: 2px solid #e3e3e9;
+}
+
+.navbar__logo img {
+  height: 80px;
+}
+
+.navbar__logo span {
+  margin-left: 20px;
+}
+
+.navbar__nav li a {
+  color: #121212;
+}
+
+.navbar__nav li a:hover {
+  color: #fa6400;
+}
+
+.nav__loginsearchcart {
+  display: flex;
+  flex-direction: row;
+  margin: 0 20px;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.nav__login svg,
+.nav__search svg,
+.nav__cart svg {
+  height: 20px;
+}
+.nav__login span,
+.nav__search span,
+.nav__cart span {
+  font-size: 12px;
+}
+
+.nav__login,
+.nav__cart {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav__login:hover {
+  color: #fa6400;
+  fill: #fa6400;
+  cursor: pointer;
+}
+
+.nav__search:hover {
+  color: #fa6400;
+  fill: #fa6400;
+  cursor: pointer;
+}
+
+.nav__cart:hover {
+  color: #fa6400;
+  fill: #fa6400;
+  cursor: pointer;
+}
+
+.policy {
+  margin: 20px auto;
+}
+
+.policy__link {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: #121212;
+  padding: 8px 0;
+  border-right: 1px solid #c9c3c3;
+  /* border-left: 1px solid #c9c3c3;  */
+}
+
+.policy__link.policy__link--last {
+  border: none;
+}
+
+.policy__link svg {
+  height: 45px;
+  width: 35px;
+  margin-right: 10px;
+}
+
+.policy__link:hover {
+  color: #fa6400;
+  fill: #fa6400;
+}
+
+.slider {
+  height: 900px;
+}
+
+.slider__content h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.slider__content h1 {
+  font-size: 80px;
+  line-height: 1em;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.slider__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider__details {
+  font-size: 16px;
+}
+
+.carousel-item {
+  height: 900px;
+}
+
+.carousel-item img {
+  height: 100%;
+}
+
+.slider__content .slider__content--button {
+  margin-top: 20px;
+  background-color: #fa6400;
+  padding: 15px 45px;
+  color: #fff;
+}
+
+.slider__content .slider__content--button:hover {
+  background-color: #000111;
+}
+
+.product {
+  margin: 20px auto;
+}
+
+.product .product__items {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+.product .product__items img {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product__items {
+  position: relative;
+  cursor: pointer;
+}
+
+.product .product__items a {
+  position: absolute;
+  display: block;
+  text-decoration: none;
+  color: #212529;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.product .product__items a:hover {
+  color: #fa6400;
+}
+
+.product .product__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product .product__description h1 {
+  font-size: 50px;
+}
+
+.feedback h1 {
+  text-align: center;
+}
+
+.service {
+  margin-top: 110px;
+}
+
+.service__img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.service__title {
+  display: flex;
+  justify-content: center;
+}
+
+.service__sub {
+  display: flex;
+  justify-content: center;
+}
+
+.service__img img {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 140px;
+}
+
+.service__title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: normal;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.service__sub {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: normal;
+  color: #333;
+  margin-bottom: 35px;
+}
+
+.subcrible {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 35px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.subcrible-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.subcrible__input--input {
+  height: 100%;
+  width: 250px;
+  border: 1px solid #c3cbd5;
+}
+
+.subcrible__input--button {
+  height: 100%;
+  outline: none;
+  background-color: #fa6400;
+  border: none;
+  width: 100px;
+  color: #fff;
+}
+
+.subcrible__icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

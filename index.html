@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <!-- <div class="container-fluid"> -->
+      <div class="navbar__logo">
+        <a class="navbar-brand" href="#">
+          <img src="./asset/img/logo1.png" alt="#" />
+          <span>G5M</span>
+        </a>
+      </div>
+      <div class="navbar__nav">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Bán chạy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Mới</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Phụ kiện</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sắp ra mắt</a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav__loginsearchcart">
+        <div class="nav__login">
+          <svg
+            version="1.1"
+            id="Capa_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 512 512"
+            style="enable-background: new 0 0 512 512"
+            xml:space="preserve"
+          >
+            <g>
+              <g>
+                <path
+                  d="M437.02,330.98c-27.883-27.882-61.071-48.523-97.281-61.018C378.521,243.251,404,198.548,404,148
+                  C404,66.393,337.607,0,256,0S108,66.393,108,148c0,50.548,25.479,95.251,64.262,121.962
+                  c-36.21,12.495-69.398,33.136-97.281,61.018C26.629,379.333,0,443.62,0,512h40c0-119.103,96.897-216,216-216s216,96.897,216,216
+                  h40C512,443.62,485.371,379.333,437.02,330.98z M256,256c-59.551,0-108-48.448-108-108S196.449,40,256,40
+                  c59.551,0,108,48.448,108,108S315.551,256,256,256z"
+                />
+              </g>
+            </g>
+          </svg>
+          <span>Đăng nhập</span>
+        </div>
+        <div class="nav__search">
+          <svg
+            version="1.1"
+            id="Capa_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 512.005 512.005"
+            style="enable-background: new 0 0 512.005 512.005"
+            xml:space="preserve"
+          >
+            <path
+              d="M505.749,475.587l-145.6-145.6c28.203-34.837,45.184-79.104,45.184-127.317c0-111.744-90.923-202.667-202.667-202.667
+                  S0,90.925,0,202.669s90.923,202.667,202.667,202.667c48.213,0,92.48-16.981,127.317-45.184l145.6,145.6
+                  c4.16,4.16,9.621,6.251,15.083,6.251s10.923-2.091,15.083-6.251C514.091,497.411,514.091,483.928,505.749,475.587z
+                  M202.667,362.669c-88.235,0-160-71.765-160-160s71.765-160,160-160s160,71.765,160,160S290.901,362.669,202.667,362.669z"
+            />
+          </svg>
+        </div>
+        <div class="nav__cart">
+          <svg viewBox="0 -31 512.00026 512" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="m164.960938 300.003906h.023437c.019531 0 .039063-.003906.058594-.003906h271.957031c6.695312 0 12.582031-4.441406 14.421875-10.878906l60-210c1.292969-4.527344.386719-9.394532-2.445313-13.152344-2.835937-3.757812-7.269531-5.96875-11.976562-5.96875h-366.632812l-10.722657-48.253906c-1.527343-6.863282-7.613281-11.746094-14.644531-11.746094h-90c-8.285156 0-15 6.714844-15 15s6.714844 15 15 15h77.96875c1.898438 8.550781 51.3125 230.917969 54.15625 243.710938-15.941406 6.929687-27.125 22.824218-27.125 41.289062 0 24.8125 20.1875 45 45 45h272c8.285156 0 15-6.714844 15-15s-6.714844-15-15-15h-272c-8.269531 0-15-6.730469-15-15 0-8.257812 6.707031-14.976562 14.960938-14.996094zm312.152343-210.003906-51.429687 180h-248.652344l-40-180zm0 0"
+            />
+            <path
+              d="m150 405c0 24.8125 20.1875 45 45 45s45-20.1875 45-45-20.1875-45-45-45-45 20.1875-45 45zm45-15c8.269531 0 15 6.730469 15 15s-6.730469 15-15 15-15-6.730469-15-15 6.730469-15 15-15zm0 0"
+            />
+            <path
+              d="m362 405c0 24.8125 20.1875 45 45 45s45-20.1875 45-45-20.1875-45-45-45-45 20.1875-45 45zm45-15c8.269531 0 15 6.730469 15 15s-6.730469 15-15 15-15-6.730469-15-15 6.730469-15 15-15zm0 0"
+            />
+          </svg>
+          <span>Giỏ hàng</span>
+        </div>
+      </div>
+      <!-- </div> -->
+    </nav>
+    <div class="container-fluid wrapper">
+      <div class="policy container">
+        <div class="row">
+          <div class="col-3">
+            <a href="#" class="policy__link">
+              <span
+                ><svg
+                  enable-background="new 0 0 512 512"
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M387.302 125.987A44.708 44.708 0 00392 106c0-24.813-20.187-45-45-45s-45 20.187-45 45a44.708 44.708 0 004.698 19.987C235.134 144.019 182 208.917 182 286c0 90.981 74.019 165 165 165s165-74.019 165-165c0-77.083-53.134-141.981-124.698-160.013zM332 106c0-8.271 6.729-15 15-15s15 6.729 15 15-6.729 15-15 15-15-6.729-15-15zm30 314.162V406c0-8.284-6.716-15-15-15s-15 6.716-15 15v14.162C269.521 413.223 219.777 363.479 212.838 301H227c8.284 0 15-6.716 15-15s-6.716-15-15-15h-14.162c6.939-62.479 56.683-112.223 119.162-119.162V166c0 8.284 6.716 15 15 15s15-6.716 15-15v-14.162c62.479 6.939 112.223 56.684 119.162 119.162H467c-8.284 0-15 6.716-15 15s6.716 15 15 15h14.162C474.223 363.479 424.479 413.223 362 420.162zM137 121h-32c-8.284 0-15 6.716-15 15s6.716 15 15 15h32c8.284 0 15-6.716 15-15s-6.716-15-15-15zM137 211H75c-8.284 0-15 6.716-15 15s6.716 15 15 15h62c8.284 0 15-6.716 15-15s-6.716-15-15-15zM137 301H45c-8.284 0-15 6.716-15 15s6.716 15 15 15h92c8.284 0 15-6.716 15-15s-6.716-15-15-15zM137 391H15c-8.284 0-15 6.716-15 15s6.716 15 15 15h122c8.284 0 15-6.716 15-15s-6.716-15-15-15z"
+                  ></path>
+                  <path
+                    d="M407 271h-45v-45c0-8.284-6.716-15-15-15s-15 6.716-15 15v60c0 8.284 6.716 15 15 15h60c8.284 0 15-6.716 15-15s-6.716-15-15-15z"
+                  ></path></svg
+              ></span>
+              <div>
+                <span>Giao hàng</span>
+                <b>
+                  <span class="color-main">24h</span>
+                </b>
+                <span>ở HN & HCM 2-3 ngày ở tỉnh khác</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-3">
+            <a href="#" class="policy__link">
+              <span
+                ><svg
+                  enable-background="new 0 0 512 512"
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M387.302 125.987A44.708 44.708 0 00392 106c0-24.813-20.187-45-45-45s-45 20.187-45 45a44.708 44.708 0 004.698 19.987C235.134 144.019 182 208.917 182 286c0 90.981 74.019 165 165 165s165-74.019 165-165c0-77.083-53.134-141.981-124.698-160.013zM332 106c0-8.271 6.729-15 15-15s15 6.729 15 15-6.729 15-15 15-15-6.729-15-15zm30 314.162V406c0-8.284-6.716-15-15-15s-15 6.716-15 15v14.162C269.521 413.223 219.777 363.479 212.838 301H227c8.284 0 15-6.716 15-15s-6.716-15-15-15h-14.162c6.939-62.479 56.683-112.223 119.162-119.162V166c0 8.284 6.716 15 15 15s15-6.716 15-15v-14.162c62.479 6.939 112.223 56.684 119.162 119.162H467c-8.284 0-15 6.716-15 15s6.716 15 15 15h14.162C474.223 363.479 424.479 413.223 362 420.162zM137 121h-32c-8.284 0-15 6.716-15 15s6.716 15 15 15h32c8.284 0 15-6.716 15-15s-6.716-15-15-15zM137 211H75c-8.284 0-15 6.716-15 15s6.716 15 15 15h62c8.284 0 15-6.716 15-15s-6.716-15-15-15zM137 301H45c-8.284 0-15 6.716-15 15s6.716 15 15 15h92c8.284 0 15-6.716 15-15s-6.716-15-15-15zM137 391H15c-8.284 0-15 6.716-15 15s6.716 15 15 15h122c8.284 0 15-6.716 15-15s-6.716-15-15-15z"
+                  ></path>
+                  <path
+                    d="M407 271h-45v-45c0-8.284-6.716-15-15-15s-15 6.716-15 15v60c0 8.284 6.716 15 15 15h60c8.284 0 15-6.716 15-15s-6.716-15-15-15z"
+                  ></path></svg
+              ></span>
+              <div>
+                <span>Giao hàng</span>
+                <b>
+                  <span class="color-main">24h</span>
+                </b>
+                <span>ở HN & HCM 2-3 ngày ở tỉnh khác</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-3">
+            <a href="#" class="policy__link">
+              <span
+                ><svg
+                  enable-background="new 0 0 512 512"
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M387.302 125.987A44.708 44.708 0 00392 106c0-24.813-20.187-45-45-45s-45 20.187-45 45a44.708 44.708 0 004.698 19.987C235.134 144.019 182 208.917 182 286c0 90.981 74.019 165 165 165s165-74.019 165-165c0-77.083-53.134-141.981-124.698-160.013zM332 106c0-8.271 6.729-15 15-15s15 6.729 15 15-6.729 15-15 15-15-6.729-15-15zm30 314.162V406c0-8.284-6.716-15-15-15s-15 6.716-15 15v14.162C269.521 413.223 219.777 363.479 212.838 301H227c8.284 0 15-6.716 15-15s-6.716-15-15-15h-14.162c6.939-62.479 56.683-112.223 119.162-119.162V166c0 8.284 6.716 15 15 15s15-6.716 15-15v-14.162c62.479 6.939 112.223 56.684 119.162 119.162H467c-8.284 0-15 6.716-15 15s6.716 15 15 15h14.162C474.223 363.479 424.479 413.223 362 420.162zM137 121h-32c-8.284 0-15 6.716-15 15s6.716 15 15 15h32c8.284 0 15-6.716 15-15s-6.716-15-15-15zM137 211H75c-8.284 0-15 6.716-15 15s6.716 15 15 15h62c8.284 0 15-6.716 15-15s-6.716-15-15-15zM137 301H45c-8.284 0-15 6.716-15 15s6.716 15 15 15h92c8.284 0 15-6.716 15-15s-6.716-15-15-15zM137 391H15c-8.284 0-15 6.716-15 15s6.716 15 15 15h122c8.284 0 15-6.716 15-15s-6.716-15-15-15z"
+                  ></path>
+                  <path
+                    d="M407 271h-45v-45c0-8.284-6.716-15-15-15s-15 6.716-15 15v60c0 8.284 6.716 15 15 15h60c8.284 0 15-6.716 15-15s-6.716-15-15-15z"
+                  ></path></svg
+              ></span>
+              <div>
+                <span>Giao hàng</span>
+                <b>
+                  <span class="color-main">24h</span>
+                </b>
+                <span>ở HN & HCM 2-3 ngày ở tỉnh khác</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-3">
+            <a href="#" class="policy__link policy__link--last">
+              <span
+                ><svg
+                  enable-background="new 0 0 512 512"
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M387.302 125.987A44.708 44.708 0 00392 106c0-24.813-20.187-45-45-45s-45 20.187-45 45a44.708 44.708 0 004.698 19.987C235.134 144.019 182 208.917 182 286c0 90.981 74.019 165 165 165s165-74.019 165-165c0-77.083-53.134-141.981-124.698-160.013zM332 106c0-8.271 6.729-15 15-15s15 6.729 15 15-6.729 15-15 15-15-6.729-15-15zm30 314.162V406c0-8.284-6.716-15-15-15s-15 6.716-15 15v14.162C269.521 413.223 219.777 363.479 212.838 301H227c8.284 0 15-6.716 15-15s-6.716-15-15-15h-14.162c6.939-62.479 56.683-112.223 119.162-119.162V166c0 8.284 6.716 15 15 15s15-6.716 15-15v-14.162c62.479 6.939 112.223 56.684 119.162 119.162H467c-8.284 0-15 6.716-15 15s6.716 15 15 15h14.162C474.223 363.479 424.479 413.223 362 420.162zM137 121h-32c-8.284 0-15 6.716-15 15s6.716 15 15 15h32c8.284 0 15-6.716 15-15s-6.716-15-15-15zM137 211H75c-8.284 0-15 6.716-15 15s6.716 15 15 15h62c8.284 0 15-6.716 15-15s-6.716-15-15-15zM137 301H45c-8.284 0-15 6.716-15 15s6.716 15 15 15h92c8.284 0 15-6.716 15-15s-6.716-15-15-15zM137 391H15c-8.284 0-15 6.716-15 15s6.716 15 15 15h122c8.284 0 15-6.716 15-15s-6.716-15-15-15z"
+                  ></path>
+                  <path
+                    d="M407 271h-45v-45c0-8.284-6.716-15-15-15s-15 6.716-15 15v60c0 8.284 6.716 15 15 15h60c8.284 0 15-6.716 15-15s-6.716-15-15-15z"
+                  ></path></svg
+              ></span>
+              <div>
+                <span>Giao hàng</span>
+                <b>
+                  <span class="color-main">24h</span>
+                </b>
+                <span>ở HN & HCM 2-3 ngày ở tỉnh khác</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="slider row">
+        <div class="slider__content col-6">
+          <h2>Tủ đồ định kỳ</h2>
+          <h1 class="color-main">G5M Flash sale</h1>
+          <div class="slider__details">
+            <span>Duy nhất tại Việt Nam giá chỉ từ </span>
+            <span class="color-main">199k</span>
+          </div>
+          <div class="slider__details">
+            <span>Tiết kiệm tới </span>
+            <span class="color-main">40%</span>
+            <span>mà không cần săn khuyến mại</span>
+          </div>
+          <div class="slider__details">
+            <span>Có đồ mới mỗi tháng</span>
+            <span class="color-main">, Miễn phí vẫn chuyển</span>
+          </div>
+          <a type="button" class="btn slider__content--button" href="#"
+            >Tìm hiểu thêm</a
+          >
+        </div>
+        <div class="col-6 slider__carousel">
+          <div
+            id="carouselExampleFade"
+            class="carousel slide carousel-fade"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./asset/img/slider1.jpg"
+                  class="d-block w-100"
+                  alt="#"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="asset/img/slider2.jpg"
+                  class="d-block w-100"
+                  alt="#"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="asset/img/slider3.jpg"
+                  class="d-block w-100"
+                  alt="#"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="row">
+          <div class="col-6">
+            <div class="row">
+              <div class="col-6">
+                <div class="product__items">
+                  <img src="./asset/img/product1.jpg" alt="" />
+                  <a href="#">Sản phẩm bán chạy</a>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="product__items">
+                  <img src="./asset/img/product1.jpg" alt="" />
+                  <a href="#">Sản phẩm mới</a>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="product__items">
+                  <img src="./asset/img/product1.jpg" alt="" />
+                  <a href="#">Phụ kiện</a>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="product__items">
+                  <img src="./asset/img/product1.jpg" alt="" />
+                  <a href="#">Sản phẩm sắp ra mắt</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 product__description">
+            <h1 class="active">Sản phẩm chính</h1>
+            <div>
+              <span>Summer Sale - FREESHIP với đơn từ 0đ</span>
+            </div>
+            <div>
+              <span>Phù hơp cho cả nam và nữ</span>
+            </div>
+            <div>
+              <span>Có thể dùng cả 4 mùa</span>
+            </div>
+            <div>
+              <span
+                >Giá gốc 2xx nay chỉ còn <span class="active">1xx</span></span
+              >
+            </div>
+            <div>
+              <span>Lỗi 1 đổi 1 trong vòng 7 ngày nếu lỗi do nhà sản xuất</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="feedback container">
+        <div class="row">
+          <div class="col-12">
+            <h1>Khách hàng nói về G5M</h1>
+            <div class="row">
+              <div class="col-12">
+                <div
+                  id="carouselExampleCaptions"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleCaptions"
+                      data-bs-slide-to="0"
+                      class="active"
+                      aria-current="true"
+                      aria-label="Slide 1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleCaptions"
+                      data-bs-slide-to="1"
+                      aria-label="Slide 2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleCaptions"
+                      data-bs-slide-to="2"
+                      aria-label="Slide 3"
+                    ></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="./asset/img/carosel800x400.png"
+                        class="d-block w-100"
+                        alt="#"
+                      />
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Tiêu đề</h5>
+                        <p>Mô tả</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="./asset/img/carosel800x400.png"
+                        class="d-block w-100"
+                        alt="#"
+                      />
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Tiêu đề</h5>
+                        <p>Mô tả</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="./asset/img/carosel800x400.png"
+                        class="d-block w-100"
+                        alt="#"
+                      />
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Tiêu đề</h5>
+                        <p>Mô tả</p>
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="service container">
+        <div class="row">
+          <div class="col-12">
+            <div class="service__img">
+              <img src="./asset/img/logo.png" alt="" />
+            </div>
+            <div class="service__title">
+              <span>
+                Trải nghiệm mua sắm <span class="active">Coolmate</span>
+              </span>
+            </div>
+            <div class="service__sub">
+              <span>
+                Cam Kết 100%
+                <span class="active">Hài Lòng</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="subcrible">
+              <div class="subcrible-title">
+                <span>Đăng ký để nhận ưu đãi</span>
+              </div>
+              <div class="subcrible__input">
+                <input
+                  class="subcrible__input--input"
+                  type="text"
+                  placeholder="Nhập email của bạn"
+                />
+                <input
+                  class="subcrible__input--button"
+                  type="button"
+                  value="Đăng kí"
+                />
+              </div>
+              <div class="subcrible__icon">
+                <img src="./asset/img/facebook.png" alt="#" />
+                <img src="./asset/img/instagram.png" alt="#" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
